@@ -100,19 +100,12 @@
           year/genre range.
         </p>
       </div>
-      <script>
-        var ws = new Primus("http://13.232.56.77:8000/primus");
-        ws.on("data", (data) => {
-          return (
-            <>
-              <div id="graph2"></div>
-              <div id="trend"></div>
-              <div id="scatter"></div>
-              <div id="stats"></div>
-            </>
-          );
-        });
-      </script>
+
+      <div id="graph2"></div>
+      <div id="trend"></div>
+      <div id="scatter"></div>
+      <div id="stats"></div>
+
       <!-- <div id="graph2"></div>
       <div id="trend"></div>
       <div id="scatter"></div>
